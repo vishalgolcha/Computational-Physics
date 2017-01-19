@@ -1,0 +1,10 @@
+case 1: e^x , there exists no root for this .
+case 2: consider function x*exp(-x*x)
+	
+	initial guess  greater than 1/sqrt(2)
+	and smaller than -1/sqrt(2) 
+	they never yield results . they dont descend to the root hence this method fails here .
+
+case 3: consider x*(1-x)
+		a bad choice for a starting point such as 0.5 yields no result as the derivative there is zero ! 
+		again it won't desend to the root ! .
